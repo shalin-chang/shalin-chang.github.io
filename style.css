@@ -1,0 +1,177 @@
+body {
+	font-family:"Trebuchet MS", sans-serif;
+	background-color:#465298;
+	width:70%;
+	margin-left:15%;
+}
+
+#header {
+	border-style:solid;
+	border-width:2px;
+	height:10%;
+	background-color:#33d033;
+	display: flex; 
+	background: repeating-linear-gradient(
+45deg,
+#60bc6d,
+#60bc6d 20px,
+#469852 20px,
+#469852 40px
+);
+}
+stripes {
+height: 150px;
+
+}
+#header-left {
+	width:40%;
+	height:50%;
+	margin-top:0%;
+	text-align: center;
+	justify-content: center;
+}
+
+#header-left-line {
+	width: 60%;
+	height:4px;
+	background-color:black;
+	margin-left:20%
+}
+
+#header-name {
+	font-size:50px;
+	line-height:20%;
+	margin-top:15%;
+}
+
+#header-tagline {
+	line-height:0%;
+	font-size:20px;
+}
+
+#header-nav {
+	height:100%;
+	width:40%;
+	justify-content: center;
+	align-items: center;
+	p {
+		margin-top:67px;
+	}
+}
+#header-links {
+	font-weight:bold;
+	height:100%;
+	background-color:#004500;
+	color:#ffffff;
+	font-size:24px;
+	text-align: center;
+	list-style: none;       /* Remove bullets */
+	          /* Remove default margin */
+	/*padding: 5px;              Remove default padding */
+	display: flex;          /* Arrange items in a row */
+	column-gap: 30px;
+	padding-left:50px;
+	padding-top:4px;
+	padding-bottom:4px;
+	margin-top:12%;
+	margin-bottom:0px;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	a {
+		color:#ffffff
+	}
+	a:hover {
+		color:#999999;
+	}
+}
+#pfp {
+	width:15%;
+	height:15%;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	margin-top:1.5%;
+	margin-bottom:1.5%;
+	border-radius:50%;
+	border-style:solid;
+	border-color:black;
+	filter: hue-rotate(0deg);
+}
+#pfp:hover {
+	width:16%;
+	height:16%;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:1%;
+	margin-bottom:1%;
+	border-radius:50%;
+	border-style:solid;
+	border-color:white;
+}
+
+#main-box {
+	border-style:solid;
+	border-width:2px;
+	padding:10px;
+	background-color:#d0d0ff;
+}
+
+.music-box {
+	width:60%;
+	background-color:#9090d0;
+	display: flex;
+	margin:10px;
+	padding:10px;
+	padding-left:28px;
+	padding-right:28px;
+	
+	b {
+		font-weight: 900;
+	}
+	p {
+		font-weight: 100;
+	}
+	
+	
+	
+}
+
+.music-box-right {
+	width:60%;
+	background-color:#9090d0;
+	
+	
+	margin-left:33%;
+	padding:10px;
+	padding-left:28px;
+	padding-right:28px;
+	
+	b {
+		font-weight: 900;
+	}
+	p {
+		font-weight: 100;
+	}
+	.right {
+		margin-left:50%;
+	}
+}
+
+.horizontal {
+	margin:10px;
+	display: flex;    
+}
+
+h1, h2 {
+	text-align:center;
+}
+
+.filler {
+	height:400px;
+	background-color:#000;
+	color:#fff;
+	padding:40px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
