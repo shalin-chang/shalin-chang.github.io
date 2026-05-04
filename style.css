@@ -8,6 +8,7 @@ body {
 #header {
 	border-style:solid;
 	border-width:2px;
+	border-bottom-width:0px;
 	height:10%;
 	background-color:#33d033;
 	display: flex; 
@@ -19,10 +20,7 @@ body {
 #469852 40px
 );
 }
-stripes {
-height: 150px;
 
-}
 #header-left {
 	width:40%;
 	height:50%;
@@ -174,4 +172,28 @@ h1, h2 {
 	justify-content: center;
 	align-items: center;
 	display: flex;
+}
+
+#footer {
+	border-style:solid;
+	border-width:2px;
+	border-top-width:0px;
+	height:350px;
+	display: flex; 
+	background: repeating-linear-gradient(
+45deg,
+#207c2d,
+#207c2d 20px,
+#065802 20px,
+#065802 40px
+);
+}
+
+#footer-canvas {
+	width:100%;
+	height:100%;
+	background-color:#040;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -webkit-crisp-edges;
+	image-rendering: pixelated;
 }
