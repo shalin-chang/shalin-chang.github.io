@@ -68,7 +68,7 @@ var mainloop = setInterval(function() {
 	if (isMouseOnHeaderBg && !isMouseOnPfp && !isMouseOnHeaderLinks) {
 		headerBg.style.background = "repeating-linear-gradient(" + angle + "deg,#60bc6d,#60bc6d 20px,#469852 20px,#469852 40px)";
 
-		angle += 2;
+		angle++;
 		if (angle >= 405) {
 			angle = 45;
 		}

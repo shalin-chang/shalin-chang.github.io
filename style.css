@@ -172,13 +172,15 @@ h1, h2, h3{
 }
 
 .filler {
-	height:400px;
+	height:250px;
+	width:70%;
+	margin-left:11.5%;
 	background-color:#000;
 	color:#fff;
 	padding:40px;
 	justify-content: center;
 	align-items: center;
-	display: flex;
+
 }
 
 #glaze-pic {
@@ -222,4 +224,73 @@ h1, h2, h3{
 	image-rendering: -moz-crisp-edges;
 	image-rendering: -webkit-crisp-edges;
 	image-rendering: pixelated;
+}
+
+#real-footer {
+	border-style:solid;
+	border-width:2px;
+	border-top-width:0px;
+	height:10%;
+	display: flex; 
+	background: repeating-linear-gradient(
+45deg,
+#207c2d,
+#207c2d 20px,
+#065802 20px,
+#065802 40px
+);
+}
+
+#footer-nav {
+	height:100%;
+	width:100%;
+	justify-content: center;
+	align-items: center;
+	p {
+		margin-top:0px;
+	}
+}
+#footer-links {
+	font-weight:bold;
+	height:100%;
+	background-color:#004500;
+	color:#ffffff;
+	font-size:18px;
+	text-align: center;
+	justify-content: center;
+	list-style: none;       /* Remove bullets */
+	          /* Remove default margin */
+	/*padding: 5px;              Remove default padding */
+	display: flex;          /* Arrange items in a row */
+	margin:3%;
+	column-gap: 30px;
+	padding:8px;
+	padding-left:20px;
+	padding-right:20px;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	a {
+		color:#ffffff
+	}
+	a:hover {
+		color:#999999;
+	}
+}
+
+
+
+#yokan-pic {
+	height:450px;
+	margin:10px;
+	border-style:solid;
+	border-color:#000;
+}
+
+#yokan-pic:hover {
+	height:450px;
+	margin:10px;
+	border-style:solid;
+	box-shadow:0px 0px 5px 5px #465298;
+	border-color:#000;
 }
