@@ -1,7 +1,19 @@
   // Get the element
+
+var yokanPrefix = 'yokan-';
+if (document.getElementById('yokan-header') == null) {
+	yokanPrefix = '';
+}
 const pfp = document.getElementById('pfp');
-const headerBg = document.getElementById('header');
-const headerLinks = document.getElementById('header-links');
+var headerBg = document.getElementById(yokanPrefix + 'header');
+var headerLinks = document.getElementById(yokanPrefix + 'header-links');
+if (headerBg == null) {
+	headerBg = document.getElementById('yokan-header');
+}
+if (headerLinks == null) {
+	headerBg = document.getElementById('yokan-header-links');
+}
+
 let isMouseOnPfp = false;
 let isMouseOnHeaderBg = false;
 let isMouseOnHeaderLinks = false;
@@ -66,8 +78,11 @@ var mainloop = setInterval(function() {
 		
 	}
 	if (isMouseOnHeaderBg && !isMouseOnPfp && !isMouseOnHeaderLinks) {
-		headerBg.style.background = "repeating-linear-gradient(" + angle + "deg,#60bc6d,#60bc6d 20px,#469852 20px,#469852 40px)";
-
+		if (yokanPrefix == '') {
+			headerBg.style.background = "repeating-linear-gradient(" + angle + "deg,#60bc6d,#60bc6d 20px,#469852 20px,#469852 40px)";
+		} else {
+			headerBg.style.background = "repeating-linear-gradient(" + angle + "deg,#bc60bd,#bc60bd 20px,#98469f 20px,#98469f 40px)";
+		}
 		angle++;
 		if (angle >= 405) {
 			angle = 45;

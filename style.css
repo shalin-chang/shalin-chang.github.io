@@ -56,7 +56,7 @@ body {
 		margin-top:67px;
 	}
 }
-.header-links {
+#header-links {
 	font-weight:bold;
 	height:100%;
 	background-color:#004500;
@@ -295,14 +295,14 @@ h1, h2, h3{
 }
 
 #yokan-pic {
-	height:450px;
+	width:450px;
 	margin:10px;
 	border-style:solid;
 	border-color:#000;
 }
 
 #yokan-pic:hover {
-	height:450px;
+	width:450px;
 	margin:10px;
 	border-style:solid;
 	box-shadow:0px 0px 5px 5px #465298;
