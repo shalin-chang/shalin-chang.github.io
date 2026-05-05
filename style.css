@@ -127,7 +127,7 @@ body {
 		font-weight: 900;
 	}
 	p {
-		font-weight: 300;
+		font-weight: 100;
 	}
 	
 	
@@ -148,7 +148,7 @@ body {
 		font-weight: 900;
 	}
 	p {
-		font-weight: 100;
+		font-weight: 300;
 	}
 	.right {
 		margin-left:50%;
@@ -160,7 +160,14 @@ body {
 	display: flex;    
 }
 
-h1, h2 {
+.center {
+	display: flex;
+	align-content:center;
+	justify-content: center;
+	align-items: center;
+}
+
+h1, h2, h3{
 	text-align:center;
 }
 
@@ -172,6 +179,25 @@ h1, h2 {
 	justify-content: center;
 	align-items: center;
 	display: flex;
+}
+
+#glaze-pic {
+	height:150px;
+	margin:10px;
+	border-style:solid;
+	border-color:#000;
+}
+
+#glaze-pic:hover {
+	height:150px;
+	margin:10px;
+	border-style:solid;
+	box-shadow:0px 0px 5px 5px #465298;
+	border-color:#000;
+}
+
+#img-link {
+	border-color:#000;
 }
 
 #footer {
