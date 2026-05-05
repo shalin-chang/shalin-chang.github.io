@@ -56,7 +56,7 @@ body {
 		margin-top:67px;
 	}
 }
-#header-links {
+.header-links {
 	font-weight:bold;
 	height:100%;
 	background-color:#004500;
@@ -278,7 +278,21 @@ h1, h2, h3{
 	}
 }
 
-
+#yokan-header {
+	border-style:solid;
+	border-width:2px;
+	border-bottom-width:0px;
+	height:10%;
+	background-color:#33d033;
+	display: flex; 
+	background: repeating-linear-gradient(
+45deg,
+#bc60bd,
+#bc60bd 20px,
+#98469f 20px,
+#98469f 40px
+);
+}
 
 #yokan-pic {
 	height:450px;
@@ -293,4 +307,75 @@ h1, h2, h3{
 	border-style:solid;
 	box-shadow:0px 0px 5px 5px #465298;
 	border-color:#000;
+}
+
+#yokan-header-links {
+	font-weight:bold;
+	height:100%;
+	background-color:#450045;
+	color:#ffffff;
+	font-size:24px;
+	text-align: center;
+	list-style: none;       /* Remove bullets */
+	          /* Remove default margin */
+	/*padding: 5px;              Remove default padding */
+	display: flex;          /* Arrange items in a row */
+	column-gap: 30px;
+	padding-left:50px;
+	padding-top:4px;
+	padding-bottom:4px;
+	margin-top:12%;
+	margin-bottom:0px;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	a {
+		color:#ffffff
+	}
+	a:hover {
+		color:#999999;
+	}
+}
+
+#yokan-real-footer {
+	border-style:solid;
+	border-width:2px;
+	border-top-width:0px;
+	height:10%;
+	display: flex; 
+	background: repeating-linear-gradient(
+45deg,
+#bc60bd,
+#bc60bd 20px,
+#98469f 20px,
+#98469f 40px
+);
+}
+
+#yokan-footer-links {
+	font-weight:bold;
+	height:100%;
+	background-color:#450045;
+	color:#ffffff;
+	font-size:18px;
+	text-align: center;
+	justify-content: center;
+	list-style: none;       /* Remove bullets */
+	          /* Remove default margin */
+	/*padding: 5px;              Remove default padding */
+	display: flex;          /* Arrange items in a row */
+	margin:3%;
+	column-gap: 30px;
+	padding:8px;
+	padding-left:20px;
+	padding-right:20px;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	a {
+		color:#ffffff
+	}
+	a:hover {
+		color:#999999;
+	}
 }
