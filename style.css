@@ -183,6 +183,21 @@ h1, h2, h3{
 
 }
 
+#art-pic {
+	width:450px;
+	margin:10px;
+	border-style:solid;
+	border-color:#000;
+}
+
+#art-pic:hover {
+	width:450px;
+	margin:10px;
+	border-style:solid;
+	box-shadow:0px 0px 5px 5px #465298;
+	border-color:#000;
+}
+
 #glaze-pic {
 	height:150px;
 	margin:10px;
