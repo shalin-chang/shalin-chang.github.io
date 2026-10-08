@@ -21,7 +21,30 @@ body {
 );
 }
 
+#blog-header {
+	border-style:solid;
+	border-width:2px;
+	border-bottom-width:0px;
+	height:10%;
+	background-color:#3333d0;
+	display: flex; 
+	background: repeating-linear-gradient(
+45deg,
+#707dbc,
+#707dbc 20px,
+#5662b0 20px,
+#5662b0 40px
+);
+}
+
+.sneaky-link {
+	font-style:normal;
+	text-decoration:none;
+	color:black;
+}
+
 #header-left {
+	font-style: normal;
 	width:40%;
 	height:50%;
 	margin-top:0%;
@@ -40,6 +63,7 @@ body {
 	font-size:50px;
 	line-height:20%;
 	margin-top:15%;
+	font-style: normal;
 }
 
 #header-tagline {
@@ -56,10 +80,38 @@ body {
 		margin-top:67px;
 	}
 }
+
 #header-links {
 	font-weight:bold;
 	height:100%;
 	background-color:#004500;
+	color:#ffffff;
+	font-size:24px;
+	text-align: center;
+	list-style: none;       /* Remove bullets */
+	          /* Remove default margin */
+	/*padding: 5px;              Remove default padding */
+	display: flex;          /* Arrange items in a row */
+	column-gap: 30px;
+	padding-left:50px;
+	padding-top:4px;
+	padding-bottom:4px;
+	margin-top:12%;
+	margin-bottom:0px;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	a {
+		color:#ffffff
+	}
+	a:hover {
+		color:#999999;
+	}
+}
+#blog-header-links {
+	font-weight:bold;
+	height:100%;
+	background-color:#000045;
 	color:#ffffff;
 	font-size:24px;
 	text-align: center;
@@ -114,11 +166,10 @@ body {
 	background-color:#d0d0ff;
 }
 
-.music-box {
-	width:60%;
+.blog-box {
 	background-color:#9090d0;
-	display: flex;
 	margin:10px;
+	
 	padding:10px;
 	padding-left:28px;
 	padding-right:28px;
@@ -134,12 +185,31 @@ body {
 	
 }
 
-.music-box-right {
+#change-note {
+	font-family:Monospace;
+	background-color:#e0e0ff;
+	border-width:1px;
+	border-style:solid;
+	padding-left:8px;
+}
+
+#blog-left-column {
+	width:70%;
+}
+
+#blog-right-column {
+	width:30%;
+	
+	padding:10px;
+}
+
+.music-box {
 	width:60%;
-	background-color:#9090d0;
-	
-	
-	margin-left:33%;
+
+
+	color:white;
+	display: flex;
+	margin:10px;
 	padding:10px;
 	padding-left:28px;
 	padding-right:28px;
@@ -148,13 +218,15 @@ body {
 		font-weight: 900;
 	}
 	p {
-		font-weight: 300;
-	}
-	.right {
-		margin-left:50%;
+		font-weight: 100;
 	}
 }
-
+#tragedy-box {
+	background-color:#484930;
+}
+#watching-box {
+	background-color:#345865;
+}
 .horizontal {
 	margin:10px;
 	display: flex;    
@@ -198,6 +270,19 @@ h1, h2, h3{
 	border-color:#000;
 }
 
+#med-pic {
+	height:300px;
+	margin:10px;
+	border-style:solid;
+	border-color:#000;
+}
+#med-pic:hover {
+	height:300px;
+	margin:10px;
+	border-style:solid;
+	box-shadow:0px 0px 5px 5px #465298;
+	border-color:#000;
+}
 #glaze-pic {
 	height:150px;
 	margin:10px;
@@ -268,7 +353,7 @@ h1, h2, h3{
 #footer-links {
 	font-weight:bold;
 	height:100%;
-	background-color:#004500;
+	background-color:#204520;
 	color:#ffffff;
 	font-size:18px;
 	text-align: center;
@@ -395,6 +480,74 @@ h1, h2, h3{
 	}
 }
 
-.arbitrary {
-	color:#f00;
+
+#yokan-header-links {
+	font-weight:bold;
+	height:100%;
+	background-color:#450045;
+	color:#ffffff;
+	font-size:24px;
+	text-align: center;
+	list-style: none;       /* Remove bullets */
+	          /* Remove default margin */
+	/*padding: 5px;              Remove default padding */
+	display: flex;          /* Arrange items in a row */
+	column-gap: 30px;
+	padding-left:50px;
+	padding-top:4px;
+	padding-bottom:4px;
+	margin-top:12%;
+	margin-bottom:0px;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	a {
+		color:#ffffff
+	}
+	a:hover {
+		color:#999999;
+	}
+}
+
+#blog-real-footer {
+	border-style:solid;
+	border-width:2px;
+	border-top-width:0px;
+	height:10%;
+	display: flex; 
+	background: repeating-linear-gradient(
+45deg,
+#707dbc,
+#707dbc 20px,
+#5662b0 20px,
+#5662b0 40px
+);
+}
+
+#blog-footer-links {
+	font-weight:bold;
+	height:100%;
+	background-color:#000045;
+	color:#ffffff;
+	font-size:18px;
+	text-align: center;
+	justify-content: center;
+	list-style: none;       /* Remove bullets */
+	          /* Remove default margin */
+	/*padding: 5px;              Remove default padding */
+	display: flex;          /* Arrange items in a row */
+	margin:3%;
+	column-gap: 30px;
+	padding:8px;
+	padding-left:20px;
+	padding-right:20px;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	a {
+		color:#ffffff
+	}
+	a:hover {
+		color:#999999;
+	}
 }
