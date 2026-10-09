@@ -166,6 +166,13 @@ body {
 	background-color:#d0d0ff;
 }
 
+#yokan-main-box {
+	border-style:solid;
+	border-width:2px;
+	padding:10px;
+	background-color:#efd0ff;
+}
+
 .blog-box {
 	background-color:#9090d0;
 	margin:10px;
